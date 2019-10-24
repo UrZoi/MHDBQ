@@ -41,7 +41,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton14"
+                android:id="@+id/MHG"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -49,7 +49,7 @@
                 app:srcCompat="@mipmap/mhfg_foreground" />
 
             <ImageButton
-                android:id="@+id/imageButton15"
+                android:id="@+id/MH3RD"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -57,7 +57,7 @@
                 app:srcCompat="@mipmap/mhf3rd_foreground" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/MHFU"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -71,14 +71,14 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/MH3G"
                 android:layout_width="115dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00000000"
                 app:srcCompat="@mipmap/mhtrig_foreground" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/MHXX"
                 android:layout_width="8dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -86,7 +86,7 @@
                 app:srcCompat="@mipmap/mhxx_foreground" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/MH4U"
                 android:layout_width="113dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00000000"
@@ -100,7 +100,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/MHW"
                 android:layout_width="match_parent"
                 android:layout_height="136dp"
                 app:srcCompat="@mipmap/mhw_foreground" />

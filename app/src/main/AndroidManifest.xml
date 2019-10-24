@@ -4,23 +4,28 @@
 
     <application
         android:allowBackup="true"
+        android:gravity="center"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
-        android:gravity="center"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".MainActivity"
+        <activity android:name=".MHFU"></activity>
+        <activity android:name=".MHW" />
+        <activity android:name=".MHXX" />
+        <activity android:name=".MH4U" />
+        <activity android:name=".MH3G" />
+        <activity android:name=".MH3RD" />
+        <activity android:name=".MHG" />
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
     </application>
 
 </manifest>
