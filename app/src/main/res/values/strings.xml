@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MHQDB</string>
+    <string name="app_Name">Insert name</string>
+    <string name="app_Age">Insert Age</string>
 </resources>
