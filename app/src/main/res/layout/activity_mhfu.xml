@@ -6,16 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MHFU">
 
-    <LinearLayout
+    <ListView
+        android:id="@+id/MHFUListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="MHFU"
-            android:textSize="36sp" />
-    </LinearLayout>
+        android:background="#000000"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="-16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

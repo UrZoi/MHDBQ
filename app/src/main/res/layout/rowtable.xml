@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ACC1"
+        app:layout_constraintStart_toStartOf="@+id/Fee"
+        app:layout_constraintTop_toBottomOf="@+id/Fee" />
+
+    <TextView
+        android:id="@+id/maintext"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mision"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/position_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:textColor="#82DBEC"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintext" />
+
+    <TextView
+        android:id="@+id/Area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ACC1"
+        app:layout_constraintStart_toStartOf="@+id/position_textview"
+        app:layout_constraintTop_toBottomOf="@+id/position_textview" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ACC1"
+        app:layout_constraintStart_toStartOf="@+id/Area"
+        app:layout_constraintTop_toBottomOf="@+id/Area" />
+
+    <TextView
+        android:id="@+id/Fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ACC1"
+        app:layout_constraintStart_toStartOf="@+id/Time"
+        app:layout_constraintTop_toBottomOf="@+id/Time" />
+
+    <TextView
+        android:id="@+id/Notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ACC1"
+        app:layout_constraintStart_toStartOf="@+id/Reward"
+        app:layout_constraintTop_toBottomOf="@+id/Reward" />
+</androidx.constraintlayout.widget.ConstraintLayout>
